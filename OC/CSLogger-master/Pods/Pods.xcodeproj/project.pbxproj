@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0232DCFFE259BE9E91FF577F9F39B32D /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 83607C7D27B877E307081C1911440155 /* DDASLLogCapture.m */; };
+		02C736AB021BE362E9DF27EE68EB8198 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C01461FEA7C84E9BC243D5FA97B3D632 /* DDTTYLogger.m */; };
+		05209344EDB9C8DCC4FBD390A0EB110E /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E8861647F6C692965E933281BA873 /* DDLog.m */; };
+		083563B9E4A9FB9020455482E000B909 /* DDFileLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5036FDF769F3F64B9B4DC092E33CCD /* DDFileLogger+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AD8517244B047CE7E138B6CCF433E31 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1ACDE21BC6C88B22D1B638838526F3 /* DDASLLogger.m */; };
+		0BBB24E9446D5EEA28E83F7BFBF08DA0 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B111888435B12C1B282587A628DD7 /* DDFileLogger.m */; };
+		145E6D0CDE82883DEA5ABC036E19285D /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9CE547EF47BC0A0AC5BB5C36979DBA /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1E39AD2376D79567C357A0FC2C009AE7 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEA2FBB63993A66228FB49225808E12 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		238BEC406BEC3B7EA6F765591DDD467F /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 703285E5A426E81CDA63BB9CEB0A7884 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28F78EDD1F41BEADA9BC66D1C80C2ED7 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 600360AFCAC5A0275D7C41C46C365A76 /* DDOSLogger.m */; };
+		3DD68E9223DAADAA566C7FEDAC5109BB /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1435F70844EEC04B35D163298F21DD /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EA597DEFA24DFB635C183F66D18DA77 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 693AE03F9EF40235D40C9E3D3A9180E3 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45D1F0F72BA203751AEF0BBF09B02A8D /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AD9A8F6D81442F2E1D3BA18D9EE62B1 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E5321E1B1BC12A0BBA95793245749B0 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB57E8FDACAA1CBA79A4EAEBD339855 /* DDMultiFormatter.m */; };
+		578A6192C0C65F0EA04B5A83CD4188CF /* DDContextFilterLogFormatter+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 97426543DD320BDF7A124DDA3E5F18CA /* DDContextFilterLogFormatter+Deprecated.m */; };
+		5E682D4A4E358F7C154197D277DDD8DB /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AEAA928923879659AC9D1C824C2E9FF /* DDLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63FAC9C5AD33A40558A58C2F136CB443 /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 546E5515FD5E39D13829CD1D68F7D1DD /* DDFileLogger+Buffering.m */; };
+		69DA404B5288007C12EF18BEA82A0015 /* DDLoggerNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 880AD31626964637BB62AD8A21D42DE4 /* DDLoggerNames.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73A22DB65CB0C32A85B6EEC349B3947A /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA920BC9536BC7824045D145BF2F6E9 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81A62CBC35E41F51C020EBD7C5745C03 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE91DFED4CA4787ACEA81D8B636E1E0 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8892DE4B5C774184AC3FBCC26C0DD9C1 /* Pods-CSLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E0DB9A28AB27F607FBDE2D39C792A /* Pods-CSLogger-dummy.m */; };
+		9C9CF018E8C655BCA87F12ECC717B839 /* DDFileLogger+Buffering.h in Headers */ = {isa = PBXBuildFile; fileRef = A421CD134D96B5C210C281871F3172FE /* DDFileLogger+Buffering.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E1C34ED618EC8B003604455B9DEA81A /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B9373F93C2EE8C4840C658F99636CD /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A76052EA984F78FA2BBCEE79771181B7 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B2495942B620705A295CD992B36D383E /* CLIColor.m */; };
+		B3D6AE96B093530D2D24F20123192DF5 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F85C2E7A563487BA07101F45566199B8 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6D015173C96F42DCCB8B832F0C8409A /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 656A49BE64621EC3611D34DCA42C6288 /* DDOSLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0B446A8F3685A7B0AC974E18791D857 /* CLIColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 67DB9BB037B5EED8FCEDF130C8EF3A5D /* CLIColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3E8FE666C23C0DCC7DEBF52565A87BD /* DDContextFilterLogFormatter+Deprecated.h in Headers */ = {isa = PBXBuildFile; fileRef = FD68C149561D96266CA1B2A37CF7A951 /* DDContextFilterLogFormatter+Deprecated.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7EB0EB5A77BAE019B0DF39E31FCEA2B /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8944A0CF76A3167F79F2823833AE8A44 /* DDContextFilterLogFormatter.m */; };
+		CDFDF0C6EB31E18A24175D0C9DF3A421 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 509639F067D49BA9F3100DEC6B621FB4 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D1A56FDD2F3FD363A00799F6FDFAA2BC /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 989F34CB9788FE936BF1011ECC77B527 /* DDDispatchQueueLogFormatter.m */; };
+		DF1D1B111D69AFA6262791432D451665 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8BC55FD932CCD6549D08329ADF2225 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E21E26DB8F8B682CFA07D3D98DB72A26 /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C6709295836A10E97DBB074770567C /* DDLoggerNames.m */; };
+		E776122C0731C1CAE4BD6069A83F6268 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5994AED21F9414B315461B90D975B2 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF273EA1B9B53B89EEC69200FA91F8EF /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7359F2E1077E55F959AA4016C60C6EA /* CocoaLumberjack-dummy.m */; };
+		FEF52FE4CC4B780D2B591E1AFEFBB278 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC4B06B5D5251E556F782E7E8BEFE7 /* DDAbstractDatabaseLogger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A23AF6F360EAEA8700A6462206516229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
+			remoteInfo = CocoaLumberjack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C6709295836A10E97DBB074770567C /* DDLoggerNames.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLoggerNames.m; path = Sources/CocoaLumberjack/DDLoggerNames.m; sourceTree = "<group>"; };
+		0B8BC55FD932CCD6549D08329ADF2225 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogCapture.h; sourceTree = "<group>"; };
+		1D5994AED21F9414B315461B90D975B2 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		366C162DE7959169F7266095AB7D0BF7 /* Pods-CSLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSLogger.release.xcconfig"; sourceTree = "<group>"; };
+		3AEA2FBB63993A66228FB49225808E12 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDMultiFormatter.h; sourceTree = "<group>"; };
+		3E5036FDF769F3F64B9B4DC092E33CCD /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Sources/CocoaLumberjack/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
+		4D1ACDE21BC6C88B22D1B638838526F3 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Sources/CocoaLumberjack/DDASLLogger.m; sourceTree = "<group>"; };
+		509639F067D49BA9F3100DEC6B621FB4 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLogMacros.h; sourceTree = "<group>"; };
+		546E5515FD5E39D13829CD1D68F7D1DD /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
+		5AEAA928923879659AC9D1C824C2E9FF /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h; sourceTree = "<group>"; };
+		600360AFCAC5A0275D7C41C46C365A76 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
+		656A49BE64621EC3611D34DCA42C6288 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDOSLogger.h; sourceTree = "<group>"; };
+		67DB9BB037B5EED8FCEDF130C8EF3A5D /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
+		693AE03F9EF40235D40C9E3D3A9180E3 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		6EA920BC9536BC7824045D145BF2F6E9 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAssertMacros.h; sourceTree = "<group>"; };
+		703285E5A426E81CDA63BB9CEB0A7884 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger.h; sourceTree = "<group>"; };
+		76DB40738418DBA51EB70BBB74DF1E2D /* Pods-CSLogger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSLogger-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7AD9A8F6D81442F2E1D3BA18D9EE62B1 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
+		7EE345B83F6839ACBB213A354133FEA3 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		8166D843DB2E592B4BBBA0AEE8EC5024 /* Pods-CSLogger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSLogger-acknowledgements.plist"; sourceTree = "<group>"; };
+		83607C7D27B877E307081C1911440155 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Sources/CocoaLumberjack/DDASLLogCapture.m; sourceTree = "<group>"; };
+		85B9373F93C2EE8C4840C658F99636CD /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = "Sources/CocoaLumberjack/Supporting Files/CocoaLumberjack.h"; sourceTree = "<group>"; };
+		880AD31626964637BB62AD8A21D42DE4 /* DDLoggerNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLoggerNames.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLoggerNames.h; sourceTree = "<group>"; };
+		8944A0CF76A3167F79F2823833AE8A44 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		97426543DD320BDF7A124DDA3E5F18CA /* DDContextFilterLogFormatter+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDContextFilterLogFormatter+Deprecated.m"; path = "Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m"; sourceTree = "<group>"; };
+		989F34CB9788FE936BF1011ECC77B527 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		991E8861647F6C692965E933281BA873 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BC4B06B5D5251E556F782E7E8BEFE7 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		A421CD134D96B5C210C281871F3172FE /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
+		A7359F2E1077E55F959AA4016C60C6EA /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		AE1435F70844EEC04B35D163298F21DD /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
+		AE3E0DB9A28AB27F607FBDE2D39C792A /* Pods-CSLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSLogger-dummy.m"; sourceTree = "<group>"; };
+		B18B111888435B12C1B282587A628DD7 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Sources/CocoaLumberjack/DDFileLogger.m; sourceTree = "<group>"; };
+		B2495942B620705A295CD992B36D383E /* CLIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLIColor.m; path = Sources/CocoaLumberjack/CLI/CLIColor.m; sourceTree = "<group>"; };
+		B7B0ED88ECB664A4B97894861795EBB0 /* Pods-CSLogger */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-CSLogger"; path = "libPods-CSLogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE91DFED4CA4787ACEA81D8B636E1E0 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
+		C01461FEA7C84E9BC243D5FA97B3D632 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Sources/CocoaLumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
+		C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CocoaLumberjack; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9CE547EF47BC0A0AC5BB5C36979DBA /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		E7682FFFBF7118A62B10B2EEEF40D549 /* CocoaLumberjack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.release.xcconfig; sourceTree = "<group>"; };
+		EDB57E8FDACAA1CBA79A4EAEBD339855 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		F779397D773F311F45FD3455D2734683 /* CocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.debug.xcconfig; sourceTree = "<group>"; };
+		F85C2E7A563487BA07101F45566199B8 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		FD68C149561D96266CA1B2A37CF7A951 /* DDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDContextFilterLogFormatter+Deprecated.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
+		FEAAE00FD3A3A6509E68296B10DEC847 /* Pods-CSLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSLogger.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A54495698088932FDDB0392CF38F3F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C21354AF46B98B63C77C14FF6F4384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B332223745C720CE400F1AFA3104BE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7359F2E1077E55F959AA4016C60C6EA /* CocoaLumberjack-dummy.m */,
+				7EE345B83F6839ACBB213A354133FEA3 /* CocoaLumberjack-prefix.pch */,
+				F779397D773F311F45FD3455D2734683 /* CocoaLumberjack.debug.xcconfig */,
+				E7682FFFBF7118A62B10B2EEEF40D549 /* CocoaLumberjack.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		2DA94A6761171F50D9D0E2CBC3D8BA24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34D380141586B31BB6B932819941D0E7 /* CocoaLumberjack */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34D380141586B31BB6B932819941D0E7 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				940EC719A8571CDB175EB0C62364B533 /* Core */,
+				2B332223745C720CE400F1AFA3104BE4 /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		628C63C762FB29A9ED16DE686AAD7069 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EACC054E73BC52541B85B5651E3393B3 /* Pods-CSLogger */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		940EC719A8571CDB175EB0C62364B533 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				67DB9BB037B5EED8FCEDF130C8EF3A5D /* CLIColor.h */,
+				B2495942B620705A295CD992B36D383E /* CLIColor.m */,
+				85B9373F93C2EE8C4840C658F99636CD /* CocoaLumberjack.h */,
+				693AE03F9EF40235D40C9E3D3A9180E3 /* DDAbstractDatabaseLogger.h */,
+				A0BC4B06B5D5251E556F782E7E8BEFE7 /* DDAbstractDatabaseLogger.m */,
+				0B8BC55FD932CCD6549D08329ADF2225 /* DDASLLogCapture.h */,
+				83607C7D27B877E307081C1911440155 /* DDASLLogCapture.m */,
+				BCE91DFED4CA4787ACEA81D8B636E1E0 /* DDASLLogger.h */,
+				4D1ACDE21BC6C88B22D1B638838526F3 /* DDASLLogger.m */,
+				6EA920BC9536BC7824045D145BF2F6E9 /* DDAssertMacros.h */,
+				F85C2E7A563487BA07101F45566199B8 /* DDContextFilterLogFormatter.h */,
+				8944A0CF76A3167F79F2823833AE8A44 /* DDContextFilterLogFormatter.m */,
+				FD68C149561D96266CA1B2A37CF7A951 /* DDContextFilterLogFormatter+Deprecated.h */,
+				97426543DD320BDF7A124DDA3E5F18CA /* DDContextFilterLogFormatter+Deprecated.m */,
+				CA9CE547EF47BC0A0AC5BB5C36979DBA /* DDDispatchQueueLogFormatter.h */,
+				989F34CB9788FE936BF1011ECC77B527 /* DDDispatchQueueLogFormatter.m */,
+				703285E5A426E81CDA63BB9CEB0A7884 /* DDFileLogger.h */,
+				B18B111888435B12C1B282587A628DD7 /* DDFileLogger.m */,
+				A421CD134D96B5C210C281871F3172FE /* DDFileLogger+Buffering.h */,
+				546E5515FD5E39D13829CD1D68F7D1DD /* DDFileLogger+Buffering.m */,
+				3E5036FDF769F3F64B9B4DC092E33CCD /* DDFileLogger+Internal.h */,
+				AE1435F70844EEC04B35D163298F21DD /* DDLegacyMacros.h */,
+				5AEAA928923879659AC9D1C824C2E9FF /* DDLog.h */,
+				991E8861647F6C692965E933281BA873 /* DDLog.m */,
+				1D5994AED21F9414B315461B90D975B2 /* DDLog+LOGV.h */,
+				880AD31626964637BB62AD8A21D42DE4 /* DDLoggerNames.h */,
+				06C6709295836A10E97DBB074770567C /* DDLoggerNames.m */,
+				509639F067D49BA9F3100DEC6B621FB4 /* DDLogMacros.h */,
+				3AEA2FBB63993A66228FB49225808E12 /* DDMultiFormatter.h */,
+				EDB57E8FDACAA1CBA79A4EAEBD339855 /* DDMultiFormatter.m */,
+				656A49BE64621EC3611D34DCA42C6288 /* DDOSLogger.h */,
+				600360AFCAC5A0275D7C41C46C365A76 /* DDOSLogger.m */,
+				7AD9A8F6D81442F2E1D3BA18D9EE62B1 /* DDTTYLogger.h */,
+				C01461FEA7C84E9BC243D5FA97B3D632 /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B2BE5F5FCFCE482C1C06FBF98A891C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
+				B7B0ED88ECB664A4B97894861795EBB0 /* Pods-CSLogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				2DA94A6761171F50D9D0E2CBC3D8BA24 /* Pods */,
+				B2BE5F5FCFCE482C1C06FBF98A891C7A /* Products */,
+				628C63C762FB29A9ED16DE686AAD7069 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EACC054E73BC52541B85B5651E3393B3 /* Pods-CSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				76DB40738418DBA51EB70BBB74DF1E2D /* Pods-CSLogger-acknowledgements.markdown */,
+				8166D843DB2E592B4BBBA0AEE8EC5024 /* Pods-CSLogger-acknowledgements.plist */,
+				AE3E0DB9A28AB27F607FBDE2D39C792A /* Pods-CSLogger-dummy.m */,
+				FEAAE00FD3A3A6509E68296B10DEC847 /* Pods-CSLogger.debug.xcconfig */,
+				366C162DE7959169F7266095AB7D0BF7 /* Pods-CSLogger.release.xcconfig */,
+			);
+			name = "Pods-CSLogger";
+			path = "Target Support Files/Pods-CSLogger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64D3DB9B052A6F3267AB6A6BD69D02CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDAF4BF6CC0AF83E4A627B17ECC2BC1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B446A8F3685A7B0AC974E18791D857 /* CLIColor.h in Headers */,
+				9E1C34ED618EC8B003604455B9DEA81A /* CocoaLumberjack.h in Headers */,
+				3EA597DEFA24DFB635C183F66D18DA77 /* DDAbstractDatabaseLogger.h in Headers */,
+				DF1D1B111D69AFA6262791432D451665 /* DDASLLogCapture.h in Headers */,
+				81A62CBC35E41F51C020EBD7C5745C03 /* DDASLLogger.h in Headers */,
+				73A22DB65CB0C32A85B6EEC349B3947A /* DDAssertMacros.h in Headers */,
+				B3D6AE96B093530D2D24F20123192DF5 /* DDContextFilterLogFormatter.h in Headers */,
+				C3E8FE666C23C0DCC7DEBF52565A87BD /* DDContextFilterLogFormatter+Deprecated.h in Headers */,
+				145E6D0CDE82883DEA5ABC036E19285D /* DDDispatchQueueLogFormatter.h in Headers */,
+				238BEC406BEC3B7EA6F765591DDD467F /* DDFileLogger.h in Headers */,
+				9C9CF018E8C655BCA87F12ECC717B839 /* DDFileLogger+Buffering.h in Headers */,
+				083563B9E4A9FB9020455482E000B909 /* DDFileLogger+Internal.h in Headers */,
+				3DD68E9223DAADAA566C7FEDAC5109BB /* DDLegacyMacros.h in Headers */,
+				5E682D4A4E358F7C154197D277DDD8DB /* DDLog.h in Headers */,
+				E776122C0731C1CAE4BD6069A83F6268 /* DDLog+LOGV.h in Headers */,
+				69DA404B5288007C12EF18BEA82A0015 /* DDLoggerNames.h in Headers */,
+				CDFDF0C6EB31E18A24175D0C9DF3A421 /* DDLogMacros.h in Headers */,
+				1E39AD2376D79567C357A0FC2C009AE7 /* DDMultiFormatter.h in Headers */,
+				B6D015173C96F42DCCB8B832F0C8409A /* DDOSLogger.h in Headers */,
+				45D1F0F72BA203751AEF0BBF09B02A8D /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF875BD511C96A8C8603FCB992E93767 /* Pods-CSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306C3CD7C5EF49D6A1DD3C7F847F7F8B /* Build configuration list for PBXNativeTarget "Pods-CSLogger" */;
+			buildPhases = (
+				64D3DB9B052A6F3267AB6A6BD69D02CF /* Headers */,
+				C99AC95DFBEAB16BBD669108A6D4A548 /* Sources */,
+				3A54495698088932FDDB0392CF38F3F4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DEED961D62F651BF1439824E151A5D /* PBXTargetDependency */,
+			);
+			name = "Pods-CSLogger";
+			productName = "Pods-CSLogger";
+			productReference = B7B0ED88ECB664A4B97894861795EBB0 /* Pods-CSLogger */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F21F5755D0E3C64304063FE6B6409C2 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				BDAF4BF6CC0AF83E4A627B17ECC2BC1F /* Headers */,
+				E764C8AD93B88C3FD77DAB6BBB9C2E2B /* Sources */,
+				E2C21354AF46B98B63C77C14FF6F4384 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B2BE5F5FCFCE482C1C06FBF98A891C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */,
+				DF875BD511C96A8C8603FCB992E93767 /* Pods-CSLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99AC95DFBEAB16BBD669108A6D4A548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8892DE4B5C774184AC3FBCC26C0DD9C1 /* Pods-CSLogger-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E764C8AD93B88C3FD77DAB6BBB9C2E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76052EA984F78FA2BBCEE79771181B7 /* CLIColor.m in Sources */,
+				EF273EA1B9B53B89EEC69200FA91F8EF /* CocoaLumberjack-dummy.m in Sources */,
+				FEF52FE4CC4B780D2B591E1AFEFBB278 /* DDAbstractDatabaseLogger.m in Sources */,
+				0232DCFFE259BE9E91FF577F9F39B32D /* DDASLLogCapture.m in Sources */,
+				0AD8517244B047CE7E138B6CCF433E31 /* DDASLLogger.m in Sources */,
+				C7EB0EB5A77BAE019B0DF39E31FCEA2B /* DDContextFilterLogFormatter.m in Sources */,
+				578A6192C0C65F0EA04B5A83CD4188CF /* DDContextFilterLogFormatter+Deprecated.m in Sources */,
+				D1A56FDD2F3FD363A00799F6FDFAA2BC /* DDDispatchQueueLogFormatter.m in Sources */,
+				0BBB24E9446D5EEA28E83F7BFBF08DA0 /* DDFileLogger.m in Sources */,
+				63FAC9C5AD33A40558A58C2F136CB443 /* DDFileLogger+Buffering.m in Sources */,
+				05209344EDB9C8DCC4FBD390A0EB110E /* DDLog.m in Sources */,
+				E21E26DB8F8B682CFA07D3D98DB72A26 /* DDLoggerNames.m in Sources */,
+				4E5321E1B1BC12A0BBA95793245749B0 /* DDMultiFormatter.m in Sources */,
+				28F78EDD1F41BEADA9BC66D1C80C2ED7 /* DDOSLogger.m in Sources */,
+				02C736AB021BE362E9DF27EE68EB8198 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58DEED961D62F651BF1439824E151A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = A23AF6F360EAEA8700A6462206516229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EC3F31959F80193CDE5663BF1AFEEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7682FFFBF7118A62B10B2EEEF40D549 /* CocoaLumberjack.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32389589BF1FD0B939803250E8E6911D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEAAE00FD3A3A6509E68296B10DEC847 /* Pods-CSLogger.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98498EE3A2793DC3C113702F5E2FB40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA6206409A0DEBF050859A9BB0A568EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366C162DE7959169F7266095AB7D0BF7 /* Pods-CSLogger.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC1A3493EE3F7D32BBBFEF568BF520E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F779397D773F311F45FD3455D2734683 /* CocoaLumberjack.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CocoaLumberjack;
+				PRODUCT_NAME = CocoaLumberjack;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB17281C48AE863A31E46072D514569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306C3CD7C5EF49D6A1DD3C7F847F7F8B /* Build configuration list for PBXNativeTarget "Pods-CSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32389589BF1FD0B939803250E8E6911D /* Debug */,
+				DA6206409A0DEBF050859A9BB0A568EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F21F5755D0E3C64304063FE6B6409C2 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC1A3493EE3F7D32BBBFEF568BF520E /* Debug */,
+				1EC3F31959F80193CDE5663BF1AFEEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98498EE3A2793DC3C113702F5E2FB40A /* Debug */,
+				FFB17281C48AE863A31E46072D514569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
