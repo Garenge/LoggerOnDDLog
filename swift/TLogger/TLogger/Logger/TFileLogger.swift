@@ -10,13 +10,10 @@ import CocoaLumberjack
 
 class TFileLogger: DDFileLogger {
 
-    init(level: Int) {
+    init(flag: Int) {
 
         let logsDirPath = TFileLogger.getLogsDirPath()
-        print(logsDirPath)
-        let logDirPath = logsDirPath + "/\(level)"
-
-        print(logDirPath)
+        let logDirPath = logsDirPath + "/\(flag)"
         let fileManager = DDLogFileManagerDefault(logsDirectory: logDirPath)
 
         super.init(logFileManager: fileManager, completionQueue: nil)

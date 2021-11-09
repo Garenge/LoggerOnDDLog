@@ -16,8 +16,8 @@ class ViewController: UIViewController {
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 
-        Logger.logVerbose_app("app touch")
-        Logger.logVerbose_sdk("sdk none")
+        Logger.log_app("app touch")
+        Logger.log_sdk("sdk none")
         Logger.logVerbose("print all")
     }
 
