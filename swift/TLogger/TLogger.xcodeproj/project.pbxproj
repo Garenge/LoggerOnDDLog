@@ -15,6 +15,7 @@
 		3300B60227392173007B9DD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3300B60027392173007B9DD9 /* LaunchScreen.storyboard */; };
 		3300B60A273921CF007B9DD9 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B609273921CF007B9DD9 /* Logger.swift */; };
 		3300B60D2739251D007B9DD9 /* TFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3300B60C2739251D007B9DD9 /* TFileLogger.swift */; };
+		334CAB92273D5FA600C14D40 /* TContextAllowlistFilterLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CAB91273D5FA600C14D40 /* TContextAllowlistFilterLogFormatter.swift */; };
 		D328A9178742430310717F8A /* Pods_TLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F366A2C34DC23ED5BA80C117 /* Pods_TLogger.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		3300B60327392173007B9DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3300B609273921CF007B9DD9 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		3300B60C2739251D007B9DD9 /* TFileLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFileLogger.swift; sourceTree = "<group>"; };
+		334CAB91273D5FA600C14D40 /* TContextAllowlistFilterLogFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TContextAllowlistFilterLogFormatter.swift; sourceTree = "<group>"; };
+		334CAB94273D66A800C14D40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		36D10D005051447DF52ADDD1 /* Pods-TLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLogger.release.xcconfig"; path = "Target Support Files/Pods-TLogger/Pods-TLogger.release.xcconfig"; sourceTree = "<group>"; };
 		77D930C3FF27A32C3F061343 /* Pods-TLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLogger.debug.xcconfig"; path = "Target Support Files/Pods-TLogger/Pods-TLogger.debug.xcconfig"; sourceTree = "<group>"; };
 		F366A2C34DC23ED5BA80C117 /* Pods_TLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +87,8 @@
 			children = (
 				3300B609273921CF007B9DD9 /* Logger.swift */,
 				3300B60C2739251D007B9DD9 /* TFileLogger.swift */,
+				334CAB91273D5FA600C14D40 /* TContextAllowlistFilterLogFormatter.swift */,
+				334CAB94273D66A800C14D40 /* README.md */,
 			);
 			path = Logger;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			files = (
 				3300B60D2739251D007B9DD9 /* TFileLogger.swift in Sources */,
 				3300B60A273921CF007B9DD9 /* Logger.swift in Sources */,
+				334CAB92273D5FA600C14D40 /* TContextAllowlistFilterLogFormatter.swift in Sources */,
 				3300B5FA27392171007B9DD9 /* ViewController.swift in Sources */,
 				3300B5F627392171007B9DD9 /* AppDelegate.swift in Sources */,
 				3300B5F827392171007B9DD9 /* SceneDelegate.swift in Sources */,
