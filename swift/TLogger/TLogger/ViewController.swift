@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CocoaLumberjack
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,9 @@ class ViewController: UIViewController {
         Logger.log_app("app touch")
         Logger.log_sdk("sdk none")
         Logger.logVerbose("print all")
+
+        print(Logger.getSortedLogFileNames(with: Int(DDLogFlag.app.rawValue)))
+        print(Logger.getSortedLogFilePaths(with: Int(DDLogFlag.app.rawValue)))
     }
 
 }

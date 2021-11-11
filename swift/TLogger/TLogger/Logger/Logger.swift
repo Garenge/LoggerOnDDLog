@@ -65,7 +65,24 @@ class Logger: NSObject {
         // 添加sdk日志, 输出到sdk对应的目录下
         DDLog.add(createFileLogger(Int(DDLogLevel.sdk.rawValue)))
     }
+}
 
+extension Logger {
+
+    /// 根据flag获取日志文件夹路径
+    static func getLogDirPath(with flag: Int) -> String {
+        return TFileLogger.getLogDirPath(with: flag)
+    }
+
+    /// 根据flag获取日志文件夹所有日志名称
+    static func getSortedLogFileNames(with flag: Int) -> [String] {
+        return TFileLogger.getSortedLogFileNames(with: flag)
+    }
+
+    /// 根据flag获取日志文件夹所有日志的路径
+    static func getSortedLogFilePaths(with flag: Int) -> [String] {
+        return TFileLogger.getSortedLogFilePaths(with: flag)
+    }
 }
 
 /// 扩充新的flag
